@@ -164,17 +164,11 @@ Set the type and color theme here - the Pro version contains additional themes -
 		</div>
 		<div class="small-12 medium-8 large-8 columns">
 			<h4>Contact form</h4>
-            <form id="form1" name="form1" accept-charset="UTF-8" enctype="multipart/form-data" method="post" action="https://belugame.wufoo.com/forms/z1nikyi407g4p23/#public">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="Field2" name="Field2" placeholder="Email" required>
-                </div>
-                <textarea class="form-control" id="Field3" name="Field3" rows="5" placeholder="Your message" required></textarea>
-                <div class="hide">
-                    <label for="comment">Do Not Fill This Out</label>
-                    <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-                    <input type="hidden" id="idstamp" name="idstamp" value="+m3u51s86NQDNdK2aqHd2TnIwg71BjpDKpYtB7W08/c=" />
-                </div>
-                <button id="saveForm" name="saveForm" type="submit" class="btn btn-primary small btn-xs">Submit</button>
+
+            <form method="POST" action="https://formspree.io/info@beluga.me">
+                <input name="email" placeholder="Your email" type="email" required></input>
+                <textarea name="message" placeholder="Your message" required rows="6"></textarea>
+                <button type="submit">Send Message</button>    
             </form>
 		</div>
 	</div>
