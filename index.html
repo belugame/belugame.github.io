@@ -148,20 +148,26 @@ Set the type and color theme here - the Pro version contains additional themes -
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-12 medium-12 large-12 columns">
+		<div class="small-12 medium-4 large-4 columns">
 			<h4>Email</h4>
 			<p>
             <a href="mailto:info@beluga.me">info@beluga.me</a>
 			</p>
 			<h4>Skype</h4>
 			<p>
-            m467-8
-			</p>
-            <h6>Current location</h6>
-            <p>
-                Germany
+                <a href="callto://m467-8">m467-8</a>
 			</p>
 		</div>
+        <div class="small-12 medium-8 large-8 columns">
+            <h4>Contact form</h4>
+
+            <form method="POST" action="https://formspree.io/info@beluga.me">
+                <input name="email" placeholder="Your email" type="email" required></input>
+                <textarea name="message" placeholder="Your message" required rows="6"></textarea>
+                <p><input type="checkbox" required name="terms"> I accept the Privacy Policy</p>
+                <button type="submit">Send Message</button>    
+            </form>
+        </div>
 	</div>
 </div>
 
